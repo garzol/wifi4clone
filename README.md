@@ -6,7 +6,8 @@
 <p>First thing to do is to let Wiflip know about your network in order to connect to it</p>
 <p>Turn on the pinball. Then, from a PC, look for a wifi network with a name like WiFlip_XYZT and connect to it.
 The wifi password for this network is 
-<font face="Courier New">shootagain</font>.</p>  
+<span style="color: #0055AA; font-family: courier-new; font-size: 12pt;">shootagain</span>.</p>  
+
 
 ![title](img/connectstp1.png)
 
@@ -15,12 +16,12 @@ The wifi password for this network is
 
 
 <p>Once the connection is established, open your browser (such like Firefox) and in the url field, enter the following address: 
-<font face="Courier New">http://192.168.4.22</font>.
+<span style="color: #0055AA; font-family: courier-new; font-size: 12pt;">http://192.168.4.22</span>
 </p>
 
 ![title](img/connectstp3.png)
 
-<p>alternately, you can try to connect to <font face="Courier New">http://WIFLIP_XYZT.local</font> where XYZT are the characters you read
+<p>alternately, you can try to connect to <span style="color: #0055AA; font-family: courier-new; font-size: 12pt;">http://WIFLIP_XYZT.local</span> where XYZT are the characters you read
 from your device's Acess Point name</p>
 
 ![title](img/connectstp3p.png)
@@ -34,7 +35,7 @@ from your device's Acess Point name</p>
 <p>If it does not work, this might be that you entered a wrong password or that the network is temporarily unreachable, or off range.</p>
 <p>Repeat the operation until it works (success message).</p>
 <p>The success page will display the local IP that is given to the WiFlip device. Please, note the indicated value. 
-Something like <font face="Courier New">192.168.1.18</font></p>
+Something like <span style="color: #0055AA; font-family: courier-new; font-size: 12pt;">192.168.1.18</span></p>
 <p>Once it is done, don't forget to reconnect your PC to your usual home gateway. You won't need to connect to the WiFlip_XYZT any more, unless your DHCP server reattached another IP address to the WiFlip device.</p>
 
 <p>Sometimes, the DHCP server changes the device address it had given previously (after a gateway reboot, 
@@ -45,7 +46,7 @@ Something like <font face="Courier New">192.168.1.18</font></p>
 	strings for urls instead of cryptic 192.168... You will be able to address urls by name on your local network.
 </p>
 <p>With mDNS installed on your network, you can access wiflip through the name :<br>
-	<font face="Courier New"><strong>wiflip_xyzt.local</strong></font> (replace xyzt with your own values)<br>
+	<span style="color: #0055AA; font-family: courier-new; font-size: 12pt;"><strong>wiflip_xyzt.local</strong></span> (replace xyzt with your own values)<br>
 	 This string is case insensitive. 
 	 You just need to type this in 
 	the host field, instead of the numeric host name, and click connect. You might have to wait for 1mn on the very first connection.
